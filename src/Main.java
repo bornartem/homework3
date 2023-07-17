@@ -83,11 +83,11 @@ public class Main {
 
 
         byte cutWeightKg = 7; // Задача 7
-        int cutWeightG = cutWeightKg*1000;
+        int cutWeightGr = cutWeightKg*1000;
         short cutWeight1G = 250;
         short cutWeight2G = 500;
-        int daysToDoWeight1 = cutWeightG/cutWeight1G;
-        int daysToDoWeight2 = cutWeightG/cutWeight2G;
+        int daysToDoWeight1 = cutWeightGr/cutWeight1G;
+        int daysToDoWeight2 = cutWeightGr/cutWeight2G;
         System.out.println(daysToDoWeight1 + " дней потребуется, если терять в весе по 250 г. и " + daysToDoWeight2 + " дней при сбросе 500 г. ");
 
         int masha = 67760; // Задача 8
